@@ -1,0 +1,16 @@
+changeset = '{rev}{branches} {desc|firstline|strip} ({date|age} by {author|person}){bookmarks}{tags}\n'
+
+changeset_quiet = '{rev}\n'
+
+changeset_verbose = '{rev}: {node|short} {branches} {desc|firstline|strip} ({date|age} by {author|person}){bookmarks} {tags}\n'
+
+start_branches = ' '
+branch = '{branch}'
+
+start_bookmarks = ' '
+bookmark = '{bookmark}, '
+last_bookmark = '{bookmark}'
+
+start_tags = ' '
+tag = '{tag}, '
+last_tag = '{tag}'

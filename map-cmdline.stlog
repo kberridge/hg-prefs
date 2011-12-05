@@ -1,0 +1,26 @@
+changeset = 'changeset: {rev}:{node|short}{branches}{bookmarks}{tags}\nauthor:    {author}\ndate:      {date|rfc822date} ({date|age})\nsummary:   {desc|firstline|strip}\n\n{file_mods}{file_adds}{file_dels}\n\n'
+
+changeset_verbose = 'changeset: {rev}:{node|short}{branches}{bookmarks}{tags}\nauthor:    {author}\ndate:      {date|rfc822date} ({date|age})\n\n{desc}\n\n{file_mods}{file_adds}{file_dels}\n\n'
+
+start_file_adds = ''
+file_add = 'A {file_add}\n'
+end_file_adds = ''
+
+start_file_dels = ''
+file_del = 'R {file_del}\n'
+end_file_dels = ''
+
+start_file_mods = ''
+file_mod = 'M {file_mod}\n'
+end_file_mods = ''
+
+start_branches = ' '
+branch = '{branch}'
+
+start_bookmarks = ' '
+bookmark = '[{bookmark}] '
+last_bookmark = '[{bookmark}]'
+
+start_tags = ' '
+tag = '{tag}, '
+last_tag = '{tag}'
