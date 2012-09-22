@@ -61,7 +61,6 @@ winmergeu.gui=True
 ;
 
 [extensions]
-prj = C:\projects\hgprjext\prj.py
 color =
 convert =
 extdiff =
